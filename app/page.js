@@ -1,13 +1,18 @@
 import Image from "next/image";
 import BentoGrid from "@/components/gridSection";
+import HomeSection from "@/components/homeSection";
+import Header from "@/components/header";
+import AboutUs from "@/components/aboutSection";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <div>
-      <main className=" max-w-sm mx-auto md:max-w-3xl lg:max-w-5xl xl:max-w-7xl ">
+    <main>
+        <Header />     
+        <HomeSection />
         <BentoGrid />
-      </main>
-      
-    </div>
+        <AboutUs />
+        <Footer />
+    </main>
   );
 }
