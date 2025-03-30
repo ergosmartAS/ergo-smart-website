@@ -14,7 +14,7 @@ export default function BentoItem({ item, isExpanded, onExpand }) {
         delay: item.id * 0.05,
         layout: { type: "spring", damping: 20, stiffness: 300 },
       }}
-      className={`bg-[#ffffff7e] rounded-xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow relative z-20 ${
+      className={`bg-[#ffffff7e] rounded-4xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow relative z-20 ${
         isExpanded ? "pointer-events-none" : "pointer-events-auto"
       }`}
       onClick={() => onExpand(item.id)}
@@ -32,8 +32,8 @@ export default function BentoItem({ item, isExpanded, onExpand }) {
           </div>
         </div>
         <div className="">
-          <h3 className="text-xl lg:text-4xl max-w-2xs h-60 flex items-center mx-auto font-bold mb-2 text-center">{item.title}</h3>
-          <p className="text-sm text-black text-center">{item.description}</p>
+          <h3 className="text-4xl lg:text-4xl max-w-2xs h-60 flex items-center mx-auto font-bold mb-2 text-center">{item.title}</h3>
+          <p className="text-lg text-black text-center">{item.description}</p>
         </div>
       </div>
     </motion.div>

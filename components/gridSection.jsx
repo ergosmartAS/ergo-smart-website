@@ -11,18 +11,18 @@ const items = [
   {
     id: 1,
     title: "Kvalitet som varer",
-    description: "This is the first test.",
+    description: "Våre kluter er laget av naturlig bambus – et materiale kjent for sin mykhet, slitestyrke og god absorberingsevne. De er OEKO-TEX-sertifiserte, noe som betyr at klutene er helt frie for skadelige stoffer og trygge for deg og miljøet. Når du velger ErgoSmart, får du bærekraftig kvalitet som varer.",
     expandedContent: "This is just a test to see if i can call in extra content."
   },
   {
     id: 2,
     title: "Det skal lønne seg å velge bærekraftig",
-    description: "This is the second test.",
+    description: "En bedre hverdag skal ikke gå på bekostning av planeten. Derfor lager vi produkter som kombinerer ergonomi og bærekraft. Våre kluter er skapt med respekt for både deg og miljøet.",
   },
   {
     id: 3,
     title: "Enklere stell gir et enklere liv",
-    description: "This is the third test.",
+    description: "Våre kluter er utstyrt med håndtak som gir et godt grep. De er spesielt utviklet med tanke på personer med nedsatt bevegelighet. Våre kluter reduserer belastningen, og gjør hygiene lettere for både bruker og pleier.",
   },
   
 ]
@@ -85,7 +85,7 @@ export default function GridSelection() {
                   <h2 className="text-3xl md:text-4xl font-bold mb-4">
                     {items.find((item) => item.id === expandedId)?.title}
                   </h2>
-                  <p className="text-lg md:text-xl mb-8">{items.find((item) => item.id === expandedId)?.description}</p>
+                  <p className={`text-lg md:text-xl mb-8`}>{items.find((item) => item.id === expandedId)?.description}</p>
                   <div className="flex-1 flex items-center justify-center">
                     <div className="text-center">
                       <p className="text-xl mb-6">

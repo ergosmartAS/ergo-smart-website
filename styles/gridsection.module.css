@@ -8,3 +8,11 @@
     gap: 3rem;
     padding: 12rem 0 12rem 0;
 }
+.para {
+    font-size: clamp(3rem, 10vw, 7rem);
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #171717;
+    text-align: center;
+    margin-bottom: 2rem;
+}
