@@ -3,6 +3,7 @@ import BentoGrid from "@/components/gridSection";
 import HomeSection from "@/components/homeSection";
 import Header from "@/components/header";
 import AboutUs from "@/components/aboutSection";
+import OurProducts from '@/components/ourProducts';
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <HomeSection />
         <BentoGrid />
         <AboutUs />
+        <OurProducts />
         <Footer />
     </main>
   );
