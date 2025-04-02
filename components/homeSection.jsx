@@ -64,10 +64,8 @@ export default function HomeSection () {
                 </div>
             </div>
         </div>
-            <div className=" text-center pb-48 pt-24 lg:max-w-3xl mx-auto max-w-sm text-large md:text-2xl lg:text-xl font-semibold text-large">
-                <h3>Våre ergonomiske håndklær er utviklet for å gjøre daglige oppgaver enklere.</h3>
-                <br />
-                <h3>Gjennom innovativ utforming skaper vi en enklere, mer effektiv hverdag.</h3>               
+            <div className=" text-center pb-48 pt-24 lg:max-w-3xl mx-auto max-w-sm text-large md:text-2xl lg:text-xl text-large text-gray-700">
+                <h3>Våre ergonomiske håndklær er utviklet for å gjøre daglige oppgaver enklere. Gjennom innovativ utforming skaper vi en enklere, mer effektiv hverdag.</h3>
             </div>
         </>
     )

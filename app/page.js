@@ -5,6 +5,7 @@ import Header from "@/components/header";
 import AboutUs from "@/components/aboutSection";
 import OurProducts from '@/components/ourProducts';
 import Footer from "@/components/footer";
+import ProductShowcase from "@/components/productShowcase";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Header />     
         <HomeSection />
         <BentoGrid />
+        <ProductShowcase />
         <AboutUs />
         <OurProducts />
         <Footer />
