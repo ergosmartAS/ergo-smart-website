@@ -7,11 +7,11 @@ export default function ProductShowcase () {
 
         {/* Product Description */}
         <div className="mb-10 max-w-3xl mx-auto">
-        <h2 className="text-6xl font-semibold text-center mb-6">Slik bruker du produktet</h2>
+        <h2 className="text-4xl md:text-6xl font-semibold text-center mb-6">Slik bruker du produktet</h2>
         </div>
 
         {/* Product Showcase */}
-        <div className="flex flex-row gap-8 items-center py-8">
+        <div className="flex flex-row gap-2 md:gap-8 items-center py-4 md:py-8">
             <div className="rounded-lg overflow-hidden shadow-md">
               <Image
                 src="/images/IMG_1210.jpg"
