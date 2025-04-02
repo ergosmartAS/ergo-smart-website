@@ -11,7 +11,7 @@ export default function ProductShowcase () {
         </div>
 
         {/* Product Showcase */}
-        <div className="flex flex-row gap-2 md:gap-8 items-center py-4 md:py-8">
+        <div className="md:flex md:flex-row grid grid-cols-2 gap-2 md:gap-8 items-center py-4 md:py-8">
             <div className="rounded-lg overflow-hidden shadow-md">
               <Image
                 src="/images/IMG_1210.jpg"
