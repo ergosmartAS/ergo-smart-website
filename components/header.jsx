@@ -7,11 +7,11 @@ export default function Header () {
                 <h2 className=" text-4xl font-bold mt-1 sm:mt-2 transform transition hover:scale-105">Ergo Smart</h2>
             </Link>
             <Link href={'/kontakt'}>
-            <div className="transition transform hover:scale-110 bg-[#84C318] w-14 h-14 rounded-full justify-center flex items-center">
+            <div className="transition transform hover:scale-110 bg-[#84C318] sm:w-14 sm:h-14 h-12 w-12 p-2 rounded-full justify-center flex items-center">
                 <Image 
                 src={'/images/contact-us.svg'}
-                width={32}
-                height={32}
+                width={26}
+                height={26}
                 alt={'A contact us image'}
                 quality={100}/>
             </div>
