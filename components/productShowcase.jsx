@@ -95,7 +95,7 @@ export default function ProductShowcase () {
         </div>
 
         {/* Benefits */}
-        <div className="mt-12 max-w-2xl mx-auto">
+        <div className="mt-12 max-w-2xl mx-auto mb-20">
           <h2 className="text-4xl font-semibold text-center mb-6">Fordeler</h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <li className="bg-white p-4 rounded-lg shadow-sm flex items-start gap-3">

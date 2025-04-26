@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { ExternalLink } from "lucide-react"
+import Image from "next/image"
 
 export default function BentoItem({ item, isExpanded, onExpand }) {
   return (
@@ -19,7 +20,7 @@ export default function BentoItem({ item, isExpanded, onExpand }) {
       }`}
       onClick={() => onExpand(item.id)}
       style={{
-        height: "600px",
+        height: "660px",
         transform: isExpanded ? "scale(0.95)" : "scale(1)",
         opacity: isExpanded && !isExpanded ? 0.6 : 1,
         transition: "transform 0.3s ease, opacity 0.3s ease",
@@ -32,7 +33,16 @@ export default function BentoItem({ item, isExpanded, onExpand }) {
           </div>
         </div>
         <div className="">
-          <h3 className="text-4xl lg:text-4xl max-w-2xs h-60 flex items-center mx-auto font-bold mb-2 text-center">{item.title}</h3>
+          <h3 className="text-4xl lg:text-4xl max-w-2xs h-52 flex items-center mx-auto font-bold mb-2 text-center">{item.title}</h3>
+          <div className="w-full flex justify-center mb-12 h-24">
+
+            <Image 
+            src={item.src}
+            alt={'vector files'}
+            width={100}
+            height={100}
+            /> 
+          </div>
           <p className="text-lg text-black text-center">{item.description}</p>
         </div>
       </div>

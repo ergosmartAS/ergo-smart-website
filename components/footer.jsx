@@ -10,18 +10,15 @@ export default function Footer () {
                         <p className="text-sm">Making your everyday life smarter.</p>
                     </div>
                     <div className="flex space-x-6">
-                        <Link href="/about">
-                            <p className="hover:text-gray-800">About</p>
+                        <Link href="#omOss">
+                            <p className="hover:text-gray-800">Om oss</p>
                         </Link>
-                        <Link href="/services">
-                            <p className="hover:text-gray-800">Services</p>
+                        <Link href="/kontakt">
+                            <p className="hover:text-gray-800">Kontakt oss</p>
                         </Link>
-                        <Link href="/contact">
-                            <p className="hover:text-gray-800">Contact</p>
-                        </Link>
-                        <Link href="/privacy">
+                        {/* <Link href="/privacy">
                             <p className="hover:text-gray-800">Privacy</p>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
                 <div className="mt-4 text-center text-xs">

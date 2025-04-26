@@ -16,13 +16,19 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Ergo Smart",
-  description: "ErgoSmart AS er et norsk selskap etablert av yrkesaktive personer med solid helsefaglig bakgrunn. Vi utvikler og produserer ergonomiske, hygieniske vaskekluter spesielt designet for personlig hygiene. Vår ambisjon er å skape produkter som forbedrer hverdagen for mennesker med ulike behov og bidrar til økt komfort og velvære. Vi ønsker å være en pålitelig og bærekraftig leverandør med fokus på kvalitet, ergonomi og miljø."
+  title: "Ergo Smart – Innovative ergonomiske løsninger",
+  description:
+    "Vi utvikler ergonomiske og innovative løsninger som gjør pleie enklere, mer skånsomt og effektivt. Vår visjon er å forbedre både arbeidshverdagen for helsepersonell og livskvaliteten for mennesker. Gjennom kvalitet og brukervennlighet skaper vi produkter som gir bedre hygiene, mindre belastning og mer verdighet.",
+  
+  
+  icons: {
+    icon: "/favicon.ico", 
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="nb_NO">
       <body
         className={`${inter.variable} ${inter.variable} antialiased`}
       >

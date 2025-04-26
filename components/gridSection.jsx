@@ -11,18 +11,21 @@ const items = [
   {
     id: 1,
     title: "Kvalitet som varer",
-    description: "Våre kluter er laget av naturlig bambus – et materiale kjent for sin mykhet, slitestyrke og god absorberingsevne. De er OEKO-TEX-sertifiserte, noe som betyr at klutene er helt frie for skadelige stoffer og trygge for deg og miljøet. Når du velger ErgoSmart, får du bærekraftig kvalitet som varer.",
-    expandedContent: "This is just a test to see if i can call in extra content."
+    description: "Våre kluter er laget av naturlig bomull – et materiale kjent for sin mykhet, slitestyrke og god absorberingsevne. De er OEKO-TEX-sertifiserte, noe som betyr at klutene er helt frie for skadelige stoffer og trygge for deg og miljøet. Når du velger ErgoSmart, får du bærekraftig kvalitet som varer.",
+    expandedContent: "This is just a test to see if i can call in extra content.",
+    src: "/images/Vector.svg",
   },
   {
     id: 2,
     title: "Det skal lønne seg å velge bærekraftig",
     description: "En bedre hverdag skal ikke gå på bekostning av planeten. Derfor lager vi produkter som kombinerer ergonomi og bærekraft. Våre kluter er skapt med respekt for både deg og miljøet.",
+    src: "/images/carbon_sustainability.svg"
   },
   {
     id: 3,
     title: "Enklere stell gir et enklere liv",
     description: "Våre kluter er utstyrt med håndtak som gir et godt grep. De er spesielt utviklet med tanke på personer med nedsatt bevegelighet. Våre kluter reduserer belastningen, og gjør hygiene lettere for både bruker og pleier.",
+    src: "/images/Group.svg"
   },
   
 ]
@@ -37,7 +40,7 @@ export default function GridSelection() {
   return (
     <div className={`${style.gridBackground}`}>
       {/* Expanded overlay */}
-      <AnimatePresence>
+      {/* <AnimatePresence>
         {expandedId && (
           <motion.div
             initial={{ opacity: 0 }}
@@ -47,7 +50,7 @@ export default function GridSelection() {
             onClick={() => setExpandedId(null)}
           />
         )}
-      </AnimatePresence>
+      </AnimatePresence> */}
 
       {/* Grid layout */}
       <div
@@ -61,7 +64,7 @@ export default function GridSelection() {
       </div>
 
       {/* Expanded content */}
-      <AnimatePresence>
+      {/* <AnimatePresence>
         {expandedId && (
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
@@ -101,7 +104,7 @@ export default function GridSelection() {
             )}
           </motion.div>
         )}
-      </AnimatePresence>
+      </AnimatePresence> */}
     </div>
   )
 }
