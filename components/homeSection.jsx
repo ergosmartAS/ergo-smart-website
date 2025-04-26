@@ -67,7 +67,7 @@ export default function HomeSection () {
             </div>
         </div>
         
-            <div className="-mt-28 lg:-mt-2 text-center pb-48 md:pt-24 lg:max-w-3xl mx-auto max-w-sm text-xl md:text-2xl lg:text-xl text-large text-gray-700">
+            <div className="-mt-14 lg:-mt-2 text-center pb-48 md:pt-24 lg:max-w-3xl mx-auto max-w-sm text-xl md:text-2xl lg:text-xl text-large text-gray-700">
                 <h3>Våre ergonomiske håndklær er utviklet for å gjøre daglige oppgaver enklere. Gjennom innovativ utforming skaper vi en enklere, mer effektiv hverdag.</h3>
             </div>
             <div className=" justify-center flex">

@@ -20,7 +20,7 @@ export default function BentoItem({ item, isExpanded, onExpand }) {
       }`}
       onClick={() => onExpand(item.id)}
       style={{
-        height: "660px",
+        height: "700px",
         transform: isExpanded ? "scale(0.95)" : "scale(1)",
         opacity: isExpanded && !isExpanded ? 0.6 : 1,
         transition: "transform 0.3s ease, opacity 0.3s ease",
