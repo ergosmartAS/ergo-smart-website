@@ -6,7 +6,7 @@ export default function OurProducts () {
             <div className="h-dvh flex justify-center items-center -mt-20">
                 <div>
                     <h3 className="text-5xl font-bold text-center">Våre produkter</h3>
-                    <div className=" grid grid-cols-2 sm:grid-cols-5 :grid-rows-2 gap-5 pt-12">
+                    <div className=" grid grid-cols-2 sm:grid-cols-5 :grid-rows-2 gap-5 mx-4 pt-12">
                         <div>
                             <Image
                              className="rounded-3xl transition transform hover:scale-110" 

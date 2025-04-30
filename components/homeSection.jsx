@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function HomeSection () {
     return (
         <>
-        <div className=" h-dvh flex justify-center items-center mx-3 md:mx-auto md:max-w-3xl lg:max-w-5xl xl:max-w-7xl -mt-20 lg:mt-4">
+        <div className=" h-[100vh] flex justify-center items-center mx-3 md:mx-auto md:max-w-3xl lg:max-w-5xl xl:max-w-7xl -mt-20 lg:mt-4">
             <div>
                 <h1 className="transition transform hover:scale-110 lg:mt-12">En <span className=" italic" >enklere</span> hverdag.</h1>
                 <div className="flex justify-center md:gap-8 gap-2 pt-20 md:pt-10 lg:mb-24">
@@ -67,7 +67,7 @@ export default function HomeSection () {
             </div>
         </div>
         
-            <div className="-mt-14 lg:-mt-2 text-center pb-48 md:pt-24 lg:max-w-3xl mx-auto max-w-sm md:text-2xl lg:text-xl text-large text-gray-700">
+            <div className="-mt-30 lg:-mt-2 text-center pb-48 md:pt-24 lg:max-w-3xl mx-8 text-sm max-w-sm md:text-2xl lg:text-xl text-gray-700">
                 <h3>Våre ergonomiske håndklær er utviklet for å gjøre daglige oppgaver enklere. Gjennom innovativ utforming skaper vi en enklere, mer effektiv hverdag.</h3>
             </div>
             <div className=" justify-center flex">
