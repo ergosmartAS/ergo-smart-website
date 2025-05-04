@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function ProductShowcase () {
     return (
-    <div className="min-h-screen bg-[#F6FFE5] pb-12 pt-24">
+    <div className="min-h-screen bg-[#e8f6cd] pb-12 pt-24">
       <div className="max-w-6xl mx-auto px-4">
         
 
@@ -100,7 +100,7 @@ export default function ProductShowcase () {
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <li className="bg-white p-4 rounded-lg shadow-sm flex items-start gap-3">
               <div className="text-[#a4d65e] flex-shrink-0">✓</div>
-              <p>Ergonomisk design som gjør det enkelt å nå hele ryggen</p>
+              <p>Ergonomisk design som gjør det enkelt å nå hele overkroppen</p>
             </li>
             <li className="bg-white p-4 rounded-lg shadow-sm flex items-start gap-3">
               <div className="text-[#a4d65e] flex-shrink-0">✓</div>
@@ -108,11 +108,11 @@ export default function ProductShowcase () {
             </li>
             <li className="bg-white p-4 rounded-lg shadow-sm flex items-start gap-3">
               <div className="text-[#a4d65e] flex-shrink-0">✓</div>
-              <p>Perfekt for personer med begrenset bevegelighet</p>
+              <p>Perfekt for personer med redusert bevegelighet</p>
             </li>
             <li className="bg-white p-4 rounded-lg shadow-sm flex items-start gap-3">
               <div className="text-[#a4d65e] flex-shrink-0">✓</div>
-              <p>Holdbart materiale som tåler hyppig bruk og vask</p>
+              <p>Slitesterkt materiale som tåler hyppig bruk og vask</p>
             </li>
           </ul>
         </div>

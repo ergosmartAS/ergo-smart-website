@@ -18,15 +18,16 @@ const items = [
   {
     id: 2,
     title: "Det skal lønne seg å velge bærekraftig",
-    description: "En bedre hverdag skal ikke gå på bekostning av planeten. Derfor lager vi produkter som kombinerer ergonomi og bærekraft. Våre kluter er skapt med respekt for både deg og miljøet.",
+    description: "En bedre hverdag skal ikke gå på bekostning av mennesker og miljø. Derfor lager vi produkter som kombinerer ergonomi og bærekraft. Våre ergonomiske vaskekluter er skapt med respekt for både deg og miljøet.",
     src: "/images/carbon_sustainability.svg"
   },
   {
     id: 3,
     title: "Enklere stell gir et enklere liv",
-    description: "Våre kluter er utstyrt med håndtak som gir et godt grep. De er spesielt utviklet med tanke på personer med nedsatt bevegelighet. Våre kluter reduserer belastningen, og gjør hygiene lettere for både bruker og pleier.",
+    description: "Våre kluter er utstyrt med fargerike håndtak som gir både et godt grep og økt velvære. De er spesielt utviklet med tanke på personlig hygiene for mennesker med nedsatt mobilitetsevne, men de kan benyttes av alle som ønsker en mer fullstendig og helhetlig rengjøring av kroppen sin.",
     src: "/images/Group.svg"
   },
+  
   
 ]
 

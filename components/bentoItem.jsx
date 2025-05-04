@@ -43,7 +43,7 @@ export default function BentoItem({ item, isExpanded, onExpand }) {
             height={100}
             /> 
           </div>
-          <p className="text-lg text-black text-center">{item.description}</p>
+          <p className="text-lg text-gray-700 text-center">{item.description}</p>
         </div>
       </div>
     </motion.div>
