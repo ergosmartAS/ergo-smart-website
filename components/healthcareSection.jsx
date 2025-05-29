@@ -25,7 +25,7 @@ export default function HealthSection() {
             Enklere pleie og stell for helsepersonell
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            Flere av våre ergonomiske, hygieniske kluter er utstyrt med lange håndtak (35 cm på hver side), spesielt utviklet for assistert pleie. Den innovative designløsningen gjør det mulig for helsepersonell å utføre kroppsvask uten å måtte benytte ensidige og gjentagende bevegelser, noe som reduserer risikoen for belastningsskader i nakke, skuldre, albuer og håndledd.
+            Flere av våre ergonomiske, hygieniske kluter er utstyrt med lange håndtak (35 cm på hver side), spesielt utviklet for assistert pleie. Den innovative designløsningen gjør det mulig for helsepersonell å utføre kroppsvask uten å måtte benytte ensidige og gjentagende bevegelser av hånd, noe som reduserer risikoen for belastningsskader i nakke, skuldre, albuer og håndledd.
           </p>
         </div>
 

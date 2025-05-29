@@ -33,14 +33,15 @@ export default function BentoItem({ item, isExpanded, onExpand }) {
           </div>
         </div>
         <div className="">
-          <h3 className="text-4xl lg:text-4xl max-w-2xs h-52 flex items-center mx-auto font-bold mb-2 text-center">{item.title}</h3>
-          <div className="w-full flex justify-center mb-12 h-24">
+          <h3 className="text-4xl lg:text-4xl max-w-2xs h-48 flex items-center mx-auto font-bold mb-2 text-center">{item.title}</h3>
+          <div className="w-full flex justify-center mb-12">
 
-            <Image 
+            <Image className="rounded-2xl"
             src={item.src}
             alt={'vector files'}
             width={100}
             height={100}
+            objectFit={'fit'}
             /> 
           </div>
           <p className="text-lg text-gray-700 text-center">{item.description}</p>

@@ -11,7 +11,7 @@ const items = [
   {
     id: 1,
     title: "Kvalitet som varer",
-    description: "Våre kluter er laget av naturlig bomull – et materiale kjent for sin mykhet, slitestyrke og god absorberingsevne. De er OEKO-TEX-sertifiserte, noe som betyr at klutene er helt frie for skadelige stoffer og trygge for deg og miljøet. Når du velger ErgoSmart, får du bærekraftig kvalitet som varer.",
+    description: "Våre ergonomiske kluter er laget av naturlig bomull – et materiale kjent for sin mykhet, slitestyrke og god absorberingsevne. De er OEKO-TEX-sertifiserte, noe som betyr at klutene er helt frie for skadelige stoffer og trygge for deg og miljøet. Når du velger ErgoSmart, får du bærekraftig kvalitet som varer.",
     expandedContent: "This is just a test to see if i can call in extra content.",
     src: "/images/Vector.svg",
   },
@@ -24,7 +24,7 @@ const items = [
   {
     id: 3,
     title: "Enklere stell gir et enklere liv",
-    description: "Våre kluter er utstyrt med fargerike håndtak som gir både et godt grep og økt velvære. De er spesielt utviklet med tanke på personlig hygiene for mennesker med nedsatt mobilitetsevne, men de kan benyttes av alle som ønsker en mer fullstendig og helhetlig rengjøring av kroppen sin.",
+    description: "Våre ergonomiske kluter er utstyrt med fargerike håndtak som gir både et godt grep og økt velvære. De er spesielt utviklet med tanke på personlig hygiene for mennesker med nedsatt mobilitetsevne, men de kan benyttes av alle som ønsker en mer fullstendig og helhetlig rengjøring av kroppen sin.",
     src: "/images/Group.svg"
   },
   

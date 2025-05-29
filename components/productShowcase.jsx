@@ -14,7 +14,7 @@ export default function ProductShowcase () {
         <div className="md:flex md:flex-row grid grid-cols-2 gap-2 md:gap-8 items-center py-4 md:py-8">
             <div className="rounded-lg overflow-hidden shadow-md">
               <Image
-                src="/images/IMG_1210.jpg"
+                src="/images/IMG_1201.jpg"
                 alt="Ryggvask-håndkle bakfra"
                 width={200}
                 height={300}
@@ -33,7 +33,7 @@ export default function ProductShowcase () {
           <div className="">
             <div className="rounded-lg overflow-hidden shadow-md">
               <Image
-                src="/images/IMG_1229.jpg"
+                src="/images/IMG_1204.jpg"
                 alt="Demonstrasjon av ryggvask-håndkle"
                 width={200}
                 height={300}
@@ -88,7 +88,7 @@ export default function ProductShowcase () {
                 4
               </div>
               <p>
-                Produktet kan også brukes med assistanse fra en hjelper for personer med svært begrenset bevegelighet.
+                Produktet kan også brukes med assistanse fra helsepersonell for pleietrengende mennesker med svært begrenset bevegelighet.
               </p>
             </div>
           </div>
