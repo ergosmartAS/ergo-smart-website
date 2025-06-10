@@ -1,5 +1,8 @@
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
+import "swiper/css";             // core Swiper styles
+import "swiper/css/navigation";  // only if you’re using the Navigation module
+import "swiper/css/pagination";  // only if you’re using the Pagination module
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
