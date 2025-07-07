@@ -17,7 +17,7 @@ export default function HealthSection() {
   ]
 
   return (
-    <section className="bg-[#f6ffe5] py-48">
+    <section className="bg-[#f6ffe5] py-48 px-6">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 text-center md:text-left gap-8 items-start">
         {/* — TEXT COLUMN — */}
         <div>

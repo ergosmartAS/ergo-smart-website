@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function OurProducts () {
     return (
         <>
-            <div className="h-dvh flex justify-center items-center -mt-20">
+            <div className="h-[100vh] flex justify-center items-center mt-20 md:-mt-20">
                 <div>
                     <h3 className="text-5xl font-bold text-center">Våre produkter</h3>
                     <div className=" grid grid-cols-2 sm:grid-cols-5 :grid-rows-2 gap-5 mx-4 pt-12">
