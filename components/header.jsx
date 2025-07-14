@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 export default function Header () {
     return(
-        <header className="sticky xl:top-16 md:ml-20 ml-6 mr-6 top-8 md:mr-20 z-30 flex justify-between">
+        <header className=" xl:top-16 md:ml-20 ml-6 mr-6 md:mt-14 md:mr-20 z-30 flex justify-between">
             <Link href={'/'}>
             <div  className="flex gap-2">
                 {/* <div className="mt-1 md:mt-2">

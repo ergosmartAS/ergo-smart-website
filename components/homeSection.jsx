@@ -34,7 +34,7 @@ export default function HomeSection() {
 
   return (
     <>
-      <div className="h-[100vh] min-h-[800px] flex justify-center items-center mx-3 md:mx-auto md:max-w-3xl lg:max-w-5xl xl:max-w-7xl -mt-32 lg:-mt-20">
+      <div className="h-[92vh] min-h-[800px] flex justify-center items-center mx-3 md:mx-auto md:max-w-3xl lg:max-w-5xl xl:max-w-7xl -mt-32 lg:-mt-20">
         <div>
           <h1 className="transition transform hover:scale-110 lg:mt-12">
             En <span className="italic">enklere</span> hverdag.
