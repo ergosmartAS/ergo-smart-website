@@ -5,7 +5,7 @@ export default function Header () {
         <header className="sticky xl:top-16 md:ml-20 ml-6 mr-6 top-8 md:mr-20 z-30 flex justify-between">
             <Link href={'/'}>
             <div  className="flex gap-2">
-                <div className="mt-1 md:mt-2">
+                {/* <div className="mt-1 md:mt-2">
 
                 <Image
                 src={'/images/colorsCloth.png'}
@@ -14,7 +14,7 @@ export default function Header () {
                 
                 alt={'A logo'}
                 />
-                </div>
+                </div> */}
                 <h2 className=" text-4xl font-bold mt-1 sm:mt-2 transform transition hover:scale-105">Ergo Smart</h2>
             </div>
             </Link>
